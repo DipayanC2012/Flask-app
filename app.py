@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 import random
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:Dipayan%40050519@localhost:3306/lilly'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:Dipayan%40050519@10.10.2.131:3306/lilly'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
