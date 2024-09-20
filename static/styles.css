@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: 'Merriweather', serif;
+  background-color: #E5D9F2;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background-color: #A594F9;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #CDC1FF;
+  font-size: 50px;
+}
+.hero p{
+    color: #CDC1FF;
+    font-size: 30px;
+}
+
+.rules {
+  background-color: #F5EFFF;
+  color: #000000;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.rules ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.rules li {
+  margin: 10px 0;
+}
+
+.user_data {
+  background-color: #A594F9;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.user_data button {
+  background-color: #CDC1FF;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+  font-weight: bold;
+}
+
+.user_data button:hover {
+    transform: scale(1.1);
+}

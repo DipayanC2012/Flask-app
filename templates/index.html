@@ -3,18 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Hangman Game</title>
+    <link href="/static/styles.css" rel="stylesheet" />
   </head>
   <body>
     <div class="hero">
-      <h1>This is a food blog</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id reiciendis
-        animi debitis eveniet, nemo, voluptas repellat error eos eum ipsum
-        nostrum non doloribus, sapiente asperiores quidem beatae maiores
-        distinctio aperiam.
-      </p>
+      <h1>Welcome to the hangman game!!</h1>
+      <p>You lose...he hangs!!</p>
     </div>
-    <div></div>
+    <div class="rules">
+      Here are the rules of the Hangman game:
+      <ul>
+        <li>
+          One player thinks of a word or phrase, and the other player tries to
+          guess it by suggesting letters.
+        </li>
+        <li>
+          The word or phrase is represented by a series of dashes, with each
+          dash representing a letter.
+        </li>
+        <li>
+          If the guessing player suggests a letter that is in the word, the
+          letter is revealed in its correct position(s).
+        </li>
+        <li>
+          The game continues until the guessing player either guesses the
+          word/phrase correctly or the man hangs!
+        </li>
+        <li>
+          If the man hangs before the word/phrase is guessed, the guessing
+          player loses.
+        </li>
+        <li>If the word/phrase is guessed correctly then the man is saved.</li>
+      </ul>
+    </div>
+
+    <form class="user_data" action="/game">
+      <button type="submit">Click to Continue</button>
+    </form>
   </body>
 </html>
